@@ -1,7 +1,6 @@
 // @ts-check
 
 const debug = require('debug')('cypress-split')
-const { getSpecs } = require('find-cypress-specs')
 const ghCore = require('@actions/core')
 const cTable = require('console.table')
 const { getChunk } = require('./chunk')
